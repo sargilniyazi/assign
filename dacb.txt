@@ -1,0 +1,157 @@
+git: merge  : local merge
+
+github: merge :::  pull request
+
+CLONE: COPY AND DOWNLOAD REPO ON UR LOCAL ? GIT
+
+FORK : COPYING ANOTHER'S REPO ONTO UR ACCOU
+
+
+
+DESIGN 
+
+> MS VISIO (trial online , download crack 2010)
+
+> smartdraw (online)
+
+> uml studio download
+==================================================
+
+Create a local git repository in your local machine first. 
+
+git init
+git add .
+git commit -m "done"
+remote publish
+git remote add origin url
+git push origin master
+
+
+Create a txt file and update it
+
+git status
+
+git add .
+
+git status
+
+git commit -m "done"
+
+git status
+
+* note down the relevant states ..verify from diag
+
+
+
+
+Rename
+
+git branch -M newname
+
+
+* make an empty repo on github  my-proj
+
+git branch -M main   
+
+
+
+
+
+
+Reset: Unstage file and file brings 
+       back to working dir.
+
+Q. Modify ur existing file
+
+git status
+git add .                              [stage]
+git status
+
+git reset
+git status
+
+****git restore test.txt
+
+Checkout:::::::::::::::::::::::::::::::::
+To Undo the changes in working repo.
+
+Modify a text in ur local
+
+git status
+
+git checkout test.txt
+
+git status
+
+The file is Undone
+
+Revert :::::::::::::::::::::::::::
+
+Remove the commits from repo.
+Rollback to the committed files
+
+Q. MOdify the text file 
+
+git add .
+git commit -m "done"
+
+git log
+Commit id copy
+
+git revert 0982675ac62f9d75ef1966a40bb00680c1183ee4
+
+Check ur file has been roll backed???????
+
+Repeat the same process again
+Q. Are changes roll backed from remote???????????
+
+====================================================
+
+
+Stash : uncomitted changes save them and allow 
+for later use.
+(temporary register)
+
+git stash
+Q . mODIFY THE FILE
+
+git add .
+
+git stash                 [save]
+
+git status
+
+git stash pop
+
+git status
+
+Now, u can resume again
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Revert
+
+
+
+
+
+
+
+
+
+
+
+
+
